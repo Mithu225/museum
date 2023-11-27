@@ -1,0 +1,17 @@
+:root {
+  --text-size-small: 15px;
+  --text-size-medium: 18px;
+  --text-size-large: 32px;
+  --text-size-xlarge: 48px;
+  --text-font-main: Arial;
+  --color-geyser: #dfdaf3;
+  --color-thunder: #2e2e2e;
+  --color-barossa: #450634;
+  --color-papaya-whip: #f4f3d3;
+  --color-carousel-pink: #f9e2e2;
+  --color-btn-beetle-green: #4f7d7d;
+  --color-btn-dark-jungle-green: #1a1d1c;
+  --color-btn-congo-brown: #612b35;
+  --color-blaze-orange: #ff6c01;
+  --color-cobalt-blue: #0418cc;
+}
