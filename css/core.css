@@ -1,3 +1,130 @@
-.text-medium {
+@import url("../css/variable.css");
+/* Feel free to add as many of these imports as you need */
+
+.text-size-small {
+  font-size: var(--text-size-small);
+}
+.text-size-medium {
   font-size: var(--text-size-medium);
+}
+.text-size-large {
+  font-size: var(--text-size-large);
+}
+.text-size-xlarge {
+  font-size: var(--text-size-xlarge);
+}
+
+.text-size-xxlarge {
+  font-size: var(--text-size-xxlarge);
+}
+
+
+.header-bar {
+  background-color: var(--color-geyser);
+  padding: 1rem;
+}
+
+.home-banner {
+  width: 100%;
+}
+
+.menu-bar {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+.menu-bar > li {
+  width: 50%;
+  text-align: center;
+}
+.menu-bar-item {
+  color: var(--color-text-primary);
+
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.menu-bar-item--selected {
+  font-weight: bold;
+  background-color: var(--color-barossa);
+  color: var(--color-text-light);
+  padding: 0.5rem 1.2rem;
+  border-radius: 1rem;
+}
+
+.header-bar {
+  display: flex;
+  padding: 1rem 3rem;
+}
+
+.footer-title {
+  font-size: var(--text-size-xlarge);
+  color: var(--color-text-dark);
+}
+.footer-text {
+  font-size: var(--text-size-large);
+  color: var(--color-text-gray);
+}
+.home-visit-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-barossa);
+  padding: 5rem;
+  border-radius: 4.5rem;
+  max-width: 50%;
+  text-align: left;
+  margin: 2rem 15rem;
+  gap:1rem;
+}
+
+.location-info-details {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.home-visit-title, .location-info, .admission-text, .admission-info, .location-text{
+  color: var(--color-text-light);
+  margin:0;
+  
+}
+
+.admission-info-details {
+    display:flex;
+    flex-direction: row;
+    gap:1rem;
+}
+.admission-left , .admission-right{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+ 
+.home-visit-title{
+    text-align: center;
+}
+
+.museum-introduce {
+    display: flex;
+    gap:2rem;
+    line-height: 2rem;
+}
+
+.explore-images {
+    display: flex;
+    margin: 2rem;
+    gap:14rem;
+}
+.explore-info ,.museum-introduce {
+    margin:2rem;
+}
+
+.explore-details {
+    display: flex;
+    gap:3rem;
+    margin:2rem;
 }
