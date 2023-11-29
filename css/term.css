@@ -1,0 +1,19 @@
+
+
+.term-img-banner {
+    position: relative;
+   width: 100%;
+}
+.term-title {
+    position:absolute;
+    top:35rem;
+    left:40rem;
+    color:var(--color-text-light);
+    margin: 0;
+}
+.condition-detail{
+    background-color: var(--color-term-page);
+    height: 100%;
+    background-repeat: no-repeat;
+padding:2rem;
+}

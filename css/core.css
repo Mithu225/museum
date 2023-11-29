@@ -31,22 +31,22 @@ body {
 }
 .button-back {
   background-color: var(--color-btn-dark-jungle-green);
-  color: white;
+  color:var(--color-text-light);
 }
 
 .button-donate {
   background-color: var(--color-btn-congo-brown);
-  color: white;
+  color:var(--color-text-light);
 }
 
 .button-primary {
   background-color: var(--color-btn-beetle-green);
-  color: white;
+  color:var(--color-text-light);
 }
 
 .button-see-more {
   background-color: var(--color-btn-cobalt-blue);
-  color: white;
+  color:var(--color-text-light);
 }
 
 .breadcrumb {
@@ -174,82 +174,12 @@ body {
   font-size: var(--text-size-large);
   color: var(--color-text-gray);
 }
-.home-visit-container {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--color-barossa);
-  padding: 5rem;
-  border-radius: 4.5rem;
-  max-width: 50%;
-  text-align: left;
-  margin: 2rem auto;
-  gap: 1rem;
-}
-
-.location-info-details {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-}
-.home-visit-title,
-.location-info,
-.admission-text,
-.admission-info,
-.location-text {
-  color: var(--color-text-light);
-  margin: 0;
-}
-
-.admission-info-details {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-}
-.admission-left,
-.admission-right {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.home-visit-title {
-  text-align: center;
-}
-
-.museum-introduce {
-  display: flex;
-  gap: 2rem;
-  line-height: 2rem;
-}
-.explore{
-    display: flex;
-    gap:2rem;
-    padding:2rem;
-}
-.explore-item {
-    width: 30%;
-}
-.explore-image{
-    height: 40%;
-    
-}
-.explore-detail{
-    width: 100%;
-}
-.explore-info,
-.museum-introduce {
-  padding: 2rem;
-}
-
 
 
 .footer-bar {
   display: flex;
   background-color: var(--color-geyser);
   padding: 2rem;
-}
-.footer-logo {
-  height: 172px;
 }
 
 .footer-link-museum {
