@@ -40,7 +40,13 @@
             <a class="menu-bar-item" href="exhibitions.html">EXHIBITIONS</a>
           </li>
           <li>
-            <a class="menu-bar-item" href="document.html">DOCUMENT</a>
+            <div class="dropdown">
+            <a class="menu-bar-item-dropdown"  href="document.html">DOCUMENT</a>
+            <div class="dropdown-content">
+              <a href="policy.html">Privacy Policy</a>
+              <a href="terms.html">Term & Conditions</a>
+            </div>
+            </div>
           </li>
         </ul>
       </div>
@@ -68,7 +74,9 @@
               </div>
               <div class="admission-right">
                 <p class="text-size-xlarge admission-text">Free entrance</p>
-                <p class="text-size-xlarge admission-text">Guided tours 70 NOK</p>
+                <p class="text-size-xlarge admission-text">
+                  Guided tours 70 NOK
+                </p>
                 <p class="text-size-xlarge admission-text">
                   Contacts for group 6 and more
                 </p>
@@ -108,37 +116,21 @@
       </div>
     </div>
 
-    <div class="explore-images">
-      <div class="explore-img-left">
+    <div class="explore">
+      <div class="explore-item">
         <img
-          class="kid-img"
+          class="explore-image"
           src="/assets/images-1/kid.jpg"
           alt="Kid's activitives at the museum"
         />
-      </div>
-      <div class="explore-img-center">
-        <img
-          class="teacher-img"
-          src="/assets/images-1/teacher.jpg"
-          alt="Teacher's activitives at the museum"
-        />
-      </div>
-      <div class="explore-img-right">
-        <img
-          class="teacher-img"
-          src="/assets/images-1/research.jpg"
-          alt="Research's activitives at the museum"
-        />
-      </div>
-</div>
-      <div class="explore-details">
-        <div class="explore-detail-left">
+
+        <div class="explore-detail">
           <h2 class="kid-activitives-title">For kids</h2>
           <p class="text-size-medium kid-activitives-info">
             Are you a young person looking to learn more about science? Come on
             down to our museum, there’s plenty to see and do.
           </p>
-          <p class="text-size-medium kid-activitives-info" >
+          <p class="text-size-medium kid-activitives-info">
             You can learn about Newtonian physics from our bumper swing, or why
             not travel back in time and meet our resident Woolly Mammoth? Our
             exhibits are designed to be accessible for interested minds, so make
@@ -156,7 +148,16 @@
             the holiday club and how you can join, send us a message.
           </p>
         </div>
-        <div class="explore-details-center">
+      </div>
+
+      <div class="explore-item">
+        <img
+          class="explore-image"
+          src="/assets/images-1/teacher.jpg"
+          alt="Teacher's activitives at the museum"
+        />
+
+        <div class="explore-detail">
           <h2 class="teacher-activitives-title">For teachers</h2>
           <p class="text-size-medium teacher-activitives-info">
             As a community-driven museum, we want to work with schools to create
@@ -171,7 +172,15 @@
             a visit.
           </p>
         </div>
-        <div class="explore-details-right">
+      </div>
+      <div class="explore-item">
+        <img
+          class="explore-image"
+          src="/assets/images-1/research.jpg"
+          alt="Research's activitives at the museum"
+        />
+
+        <div class="explore-detail">
           <h2 class="research-activitives-title">For researcher</h2>
           <p class="text-size-medium research-activitives-info">
             Are you looking to get involved with our team of researchers and
@@ -184,7 +193,8 @@
           </p>
         </div>
       </div>
-    
+    </div>
+
     <footer>
       <div class="footer-bar">
         <div class="footer-left">
@@ -219,11 +229,11 @@
                   class="form-input"
                   placeholder="Enter your email"
                 />
+                <a href="subscribed.html"
+                  ><button class="button button-primary">SUBSCRIBE</button></a
+                >
               </form>
             </div>
-            <a href="subscribed.html"
-              ><button class="button button-error">SUBSCRIBE</button></a
-            >
           </div>
           <div class="footer-link-museum">
             <div class="footer-right-explore">

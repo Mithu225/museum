@@ -1,6 +1,9 @@
 @import url("../css/variable.css");
 /* Feel free to add as many of these imports as you need */
-
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .text-size-small {
   font-size: var(--text-size-small);
 }
@@ -16,6 +19,78 @@
 
 .text-size-xxlarge {
   font-size: var(--text-size-xxlarge);
+}
+
+.button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.button-back {
+  background-color: var(--color-btn-dark-jungle-green);
+  color: white;
+}
+
+.button-donate {
+  background-color: var(--color-btn-congo-brown);
+  color: white;
+}
+
+.button-primary {
+  background-color: var(--color-btn-beetle-green);
+  color: white;
+}
+
+.button-see-more {
+  background-color: var(--color-btn-cobalt-blue);
+  color: white;
+}
+
+.breadcrumb {
+  display: flex;
+  background-color: var(--color-link-bar);
+  gap: 1rem;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+}
+
+.form-input {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.form-input-container-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-input-item label {
+  display: block;
+  padding-bottom: 0.4rem;
+  font-size: 1rem;
+}
+
+.form-input-item input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #bbb6b6;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.form-input-item textarea {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #bbb6b6;
+  padding: 1rem;
+  font-size: 1rem;
 }
 
 .header-bar {
@@ -55,6 +130,36 @@
   padding: 0.5rem 1.2rem;
   border-radius: 1rem;
 }
+.menu-bar-item-dropdown{
+    color: var(--color-text-primary);
+
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  position: relative;
+ 
+
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--color-barossa);
+  min-width: 200px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color:var(--color-text-light);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:var(--color-text-gray);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropdown {background-color:var(--color-text-primary);}
 
 .header-bar {
   display: flex;
@@ -77,7 +182,7 @@
   border-radius: 4.5rem;
   max-width: 50%;
   text-align: left;
-  margin: 2rem 15rem;
+  margin: 2rem auto;
   gap: 1rem;
 }
 
@@ -116,27 +221,31 @@
   gap: 2rem;
   line-height: 2rem;
 }
-
-.explore-images {
-  display: flex;
-  margin: 2rem;
-  gap: 14rem;
+.explore{
+    display: flex;
+    gap:2rem;
+    padding:2rem;
+}
+.explore-item {
+    width: 30%;
+}
+.explore-image{
+    height: 40%;
+    
+}
+.explore-detail{
+    width: 100%;
 }
 .explore-info,
 .museum-introduce {
-  margin: 2rem;
+  padding: 2rem;
 }
 
-.explore-details {
-  display: flex;
-  gap: 3rem;
-  margin: 2rem;
-}
+
 
 .footer-bar {
   display: flex;
-  width: 100%;
-  background-color: var(--color-text-footer);
+  background-color: var(--color-geyser);
   padding: 2rem;
 }
 .footer-logo {
@@ -146,10 +255,9 @@
 .footer-link-museum {
   display: flex;
   gap: 3rem;
+  padding:1rem;
 }
 .footer-museum-info {
-  font-style: normal;
-  font-weight: 400;
   justify-content: left;
   max-width: 31rem;
   line-height: 2rem;
@@ -165,9 +273,9 @@
   display: flex;
   gap: 10px;
 }
-.footer-reception-details{
-    display: flex;
-    gap: 1rem;
+.footer-reception-details {
+  display: flex;
+  gap: 1rem;
 }
 
 .footer-info-details a {
@@ -182,27 +290,30 @@
 .footer-info-details a:hover {
   color: var(--color-geyser);
 }
+
 .footer-location,
 .footer-email,
 .footer-phone,
 .footer-fax {
+  margin: 0;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: left;
   gap: 1rem;
   padding: 0.2rem;
 }
 
-.footer-location-text,
-.footer-email-text,
-.footer-phone-text,
-.footer-fax-text {
+.footer-subscribe {
+  display: flex;
+  gap: 1rem;
+}
+.footer-text {
   margin: 0;
 }
-
-.footer-subscribe {
-  border-radius: 5px;
-  border: 1px solid #e1dbdb;
-  background-color: var(--color-text-light);
-  color: var(--color-text-gray);
+.footer-right {
+  margin-top: 3rem;
+}
+.email-subscribe {
+  padding-bottom: 1rem;
 }
