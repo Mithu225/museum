@@ -1,3 +1,6 @@
+@import url("../css/variable.css");
+
+@import url("./media-query.css");
 .terms {
   background-image: url("../assets/images-1/term-banner.jpg");
   background-repeat: no-repeat;

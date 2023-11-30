@@ -1,0 +1,43 @@
+@import url("../css/variable.css");
+
+@import url("./media-query.css");
+.contribution-banner {
+  background-repeat: no-repeat;
+  height: 25rem;
+  background-size: cover;
+  width: 100%;
+  padding-bottom:2rem;
+}
+.contribution-body{
+    display: flex;
+    justify-content: center;
+}
+.contribution-body-top{
+    text-align: justify;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+
+}
+.contribution-title{
+    margin:0;
+    padding-top:2rem;
+    text-align: center;
+}
+.contribution-body-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  padding:0 10rem;
+  text-align: justify;
+  line-height: 2rem;
+   
+}
+.contribution-body-bottom-left {
+  width: 40%;
+}
+.contribution-body-bottom-right {
+  width: 40%;
+}

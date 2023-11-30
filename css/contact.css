@@ -1,3 +1,7 @@
+@import url("../css/variable.css");
+
+@import url("./media-query.css");
+
 .contact-img-banner {
   width: 100%;
   background-repeat: no-repeat;

@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="The homepage of Raniyday store" />
-    <title>Community Science Museum | Contribution</title>
+    <title>Community Science Museum | Home</title>
     <link rel="stylesheet" href="/css/core.css" />
-    <link rel="stylesheet" href="/css/contribution.css" />
+    <link rel="stylesheet" href="/css/donate.css" />
 
     <script
       type="module"
@@ -17,6 +17,7 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
   </head>
+
   <body>
     <header>
       <div class="header-bar">
@@ -26,15 +27,17 @@
         />
         <ul class="menu-bar">
           <li>
-            <a class="menu-bar-item " href="index.html"
-              >HOME</a
-            >
+            <a class="menu-bar-item" href="index.html">HOME</a>
           </li>
           <li>
             <a class="menu-bar-item" href="contact.html">CONTACT</a>
           </li>
           <li>
-            <a class="menu-bar-item menu-bar-item--selected" href="contribution.html">CONTRIBUTION</a>
+            <a
+              class="menu-bar-item menu-bar-item--selected"
+              href="contribution.html"
+              >CONTRIBUTION</a
+            >
           </li>
           <li>
             <a class="menu-bar-item" href="exhibitions.html">EXHIBITIONS</a>
@@ -53,54 +56,87 @@
         </ul>
       </div>
     </header>
-    <div>
-      <img
-        class="contribution-banner"
-        src="/assets/images-1/contribution.jpg"
-        alt="Home page banner"
-      />
-    </div>
-<div class="contribution-body">
-    <div class="contribution-body-top">
-      <p class="text-size-xlarge contribution-title">Support</p>
-      <p class="text-size-medium contribution-info">
-        There are various ways you can support the museum. Donations are very
-        welcome and are an important way we keep this museum open and accessible
-        to the whole community. You can also support us by donating items of
-        interest to the museum’s collections. If you have some item or
-        collection that you think others would enjoy, please let us know by
-        contacting our Collections Department and they will be able to assist
-        you.
-      </p>
-      <div class="contribution-button-donate">
-        <a class="button button-donate" href="donate.html">Donate</a>
-      </div>
-      </div>
-    </div>
-    <div class="contribution-body-bottom">
-      <div class="contribution-body-bottom-left">
-        <p class="text-size-xlarge contribution-title">Volunteer</p>
-        <p class="text-size-medium contribution-info">
-          A number of people volunteer their time and effort to keep the
-          displays in good order and ready for visitors to come and enjoy.
-          Volunteering has its perks including getting to see behind the scenes
-          of a working museum, access to staff-only lectures, and a monthly
-          lunch where all staff and volunteers come together to discuss ideas
-          for future exhibits and strategies for the museum. You can help
-          volunteer in a number of different spheres. Please contact us if you’d
-          like to find out more about how you can get involved
-        </p>
-      </div>
-      <div class="contribution-body-bottom-right">
-        <p class="text-size-xlarge contribution-title">Internship</p>
-        <p class="text-size-medium contribution-info">
-          Are you interested in working in a museum? Do you enjoy the fun and
-          excitement of sharing the wonders of nature with people? Well you
-          could be just the right person to enjoy an internship at the museum.
-          You’ll be learning from a number of different academics and people who
-          are passionate about science and sharing it with the wider community.
-        </p>
-      </div>
+    <div class="donate-info">
+      <form class="donate-form">
+        <div class="donate-container-left">
+          <h1 class="text-size-xlarge">Transaction Detail</h1>
+          <div class="donate-content">
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" />
+
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lname" />
+
+            <label for="phone">Phone</label>
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              placeholder="1234567890"
+            />
+
+            <label for="email">Email</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="demo@example.com"
+            />
+          </div>
+        </div>
+
+        <div class="donate-container-right">
+          <p class="text-size-xlarge">Payment Method</p>
+          <div class="donate-content">
+            <div class="img-card">
+              <img
+                src="/assets/images-1/visa-card.jpg"
+                alt="Donate with Visa card"
+              />
+              <img
+                src="/assets/images-1/master-card.jpg"
+                alt="Donate with Master card"
+              />
+            </div>
+
+            <div class="donate-content">
+              <label for="card-number">Card Number</label>
+              <input type="number" id="card-number" name="card-number" />
+            </div>
+
+            <div class="donate-content">
+              <label for="name-card">Name on Card</label>
+              <input type="text" id="name-card" name="name-card" />
+            </div>
+            <div class="donate-content donate-expired-date">
+              <label for="expired">Expired Date</label>
+              <input
+                type="month"
+                id="expired"
+                name="expired"
+                placeholder="MM/YY"
+              />
+            </div>
+            <div class="donate-content donate-cvc">
+              <label for="cvc">CVC</label>
+              <input type="number" id="cvc" name="cvc" placeholder="123" />
+            </div>
+          </div>
+        </div>
+
+        <div class="donate-purchase">
+          <a class="button button-back" href="index.html">
+            BACK
+          </a>
+          <a
+            
+            class="button button-donate"
+            href="donate-success.html"
+          >
+            DONATE
+          </a>
+        </div>
+      </form>
     </div>
 
     <footer>

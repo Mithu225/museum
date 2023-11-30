@@ -1,0 +1,78 @@
+@import url("../css/variable.css");
+
+@import url("./media-query.css");
+
+.billing,
+.payment {
+  color: var(--color-text-gray);
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.donate-container-left {
+  width: 40%;
+  padding-left: 3rem;
+}
+.donate-container-right {
+  width: 30%;
+}
+
+.donate-form {
+  display: flex;
+  gap: 2rem 20rem;
+  flex-wrap: wrap;
+}
+
+.donate-content {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  color: var(--color-text-gray);
+}
+
+.donate-purchase {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  padding-left: 3rem;
+}
+
+.donate-form label {
+  display: block;
+  padding-bottom: 0.4rem;
+  font-size: 1rem;
+}
+
+.donate-container-left input,
+.donate-content input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #bbb6b6;
+  padding: 1.5rem 4rem;
+  font-size: 1rem;
+}
+
+.donate-info {
+  padding: 2rem;
+}
+
+.donate-expired-date {
+  width: 70%;
+}
+
+.donate-cvc {
+  width: calc(30% - 2rem);
+}
+
+.img-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-card img {
+  max-width: 100%;
+}

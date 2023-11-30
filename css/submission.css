@@ -1,3 +1,6 @@
+@import url("../css/variable.css");
+
+@import url("./media-query.css");
 .submission {
   background-image: url("../assets/images-1/submission-sent.jpg");
   background-repeat: no-repeat;

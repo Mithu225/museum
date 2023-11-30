@@ -1,4 +1,6 @@
 @import url("../css/variable.css");
+
+@import url("./media-query.css");
 .policy-detail {
   background-color: var(--color-policy-page);
   height: 100%;
