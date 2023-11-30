@@ -31,22 +31,22 @@ body {
 }
 .button-back {
   background-color: var(--color-btn-dark-jungle-green);
-  color:var(--color-text-light);
+  color: var(--color-text-light);
 }
 
 .button-donate {
   background-color: var(--color-btn-congo-brown);
-  color:var(--color-text-light);
+  color: var(--color-text-light);
 }
 
 .button-primary {
   background-color: var(--color-btn-beetle-green);
-  color:var(--color-text-light);
+  color: var(--color-text-light);
 }
 
 .button-see-more {
   background-color: var(--color-btn-cobalt-blue);
-  color:var(--color-text-light);
+  color: var(--color-text-light);
 }
 
 .breadcrumb {
@@ -86,7 +86,7 @@ body {
 }
 
 .form-input-item textarea {
-  width: 100%;
+ width: 100%;
   border-radius: 5px;
   border: 1px solid #bbb6b6;
   padding: 1rem;
@@ -109,6 +109,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0.5rem 0;
+  
 }
 
 .menu-bar > li {
@@ -119,10 +120,17 @@ body {
   color: var(--color-text-primary);
 
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   text-decoration: none;
 }
+.menu-bar-item-dropdown {
+  color: var(--color-text-primary);
 
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+  position: relative;
+}
 .menu-bar-item--selected {
   font-weight: bold;
   background-color: var(--color-barossa);
@@ -130,16 +138,7 @@ body {
   padding: 0.5rem 1.2rem;
   border-radius: 1rem;
 }
-.menu-bar-item-dropdown{
-    color: var(--color-text-primary);
 
-  font-style: normal;
-  font-weight: 400;
-  text-decoration: none;
-  position: relative;
- 
-
-}
 .dropdown-content {
   display: none;
   position: absolute;
@@ -149,17 +148,23 @@ body {
 }
 
 .dropdown-content a {
-  color:var(--color-text-light);
+  color: var(--color-text-light);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {background-color:var(--color-text-gray);}
+.dropdown-content a:hover {
+  background-color: var(--color-text-gray);
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropdown {background-color:var(--color-text-primary);}
+.dropdown:hover .dropdown {
+  background-color: var(--color-text-primary);
+}
 
 .header-bar {
   display: flex;
@@ -175,7 +180,6 @@ body {
   color: var(--color-text-gray);
 }
 
-
 .footer-bar {
   display: flex;
   background-color: var(--color-geyser);
@@ -185,7 +189,7 @@ body {
 .footer-link-museum {
   display: flex;
   gap: 3rem;
-  padding:1rem;
+  padding: 1rem;
 }
 .footer-museum-info {
   justify-content: left;

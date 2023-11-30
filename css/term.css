@@ -1,12 +1,13 @@
-
-
-.term-img-banner {
+.term-banner {
     position: relative;
-   width: 100%;
+  
+}
+.term-img-banner{
+     width: 100%;
 }
 .term-title {
     position:absolute;
-    top:35rem;
+    top:20rem;
     left:40rem;
     color:var(--color-text-light);
     margin: 0;
@@ -16,4 +17,9 @@
     height: 100%;
     background-repeat: no-repeat;
 padding:2rem;
+}
+.document-title {
+    font-size: var(--text-size-medium);
+    font-weight: 700;
+
 }

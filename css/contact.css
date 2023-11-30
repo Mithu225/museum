@@ -1,0 +1,16 @@
+.contact-img-banner {
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.submission-form {
+  display: flex;
+  gap: 10rem;
+  padding: 5rem;
+}
+.form-title {
+  color: var(--color-text-dark);
+  font-style: normal;
+  font-weight: 700;
+  padding: 1rem 0;
+}
