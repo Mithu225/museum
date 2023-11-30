@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="The homepage of Raniyday store" />
-    <title>Community Science Museum | Donate</title>
+    <title>Community Science Museum | Subscribe</title>
     <link rel="stylesheet" href="/css/core.css" />
-    <link rel="stylesheet" href="/css/donate.css" />
+    <link rel="stylesheet" href="/css/subscribed.css" />
 
     <script
       type="module"
@@ -27,17 +27,15 @@
         />
         <ul class="menu-bar">
           <li>
-            <a class="menu-bar-item" href="index.html">HOME</a>
+            <a class="menu-bar-item menu-bar-item--selected" href="index.html"
+              >HOME</a
+            >
           </li>
           <li>
             <a class="menu-bar-item" href="contact.html">CONTACT</a>
           </li>
           <li>
-            <a
-              class="menu-bar-item menu-bar-item--selected"
-              href="contribution.html"
-              >CONTRIBUTION</a
-            >
+            <a class="menu-bar-item" href="contribution.html">CONTRIBUTION</a>
           </li>
           <li>
             <a class="menu-bar-item" href="exhibitions.html">EXHIBITIONS</a>
@@ -56,81 +54,18 @@
         </ul>
       </div>
     </header>
-    <div class="donate-info">
-      <form class="donate-form">
-        <div class="donate-container-left">
-          <h1 class="text-size-xlarge">Transaction Detail</h1>
-          <div class="donate-content">
-            <label for="fname">First name</label>
-            <input type="text" id="fname" name="fname" />
 
-            <label for="lname">Last name</label>
-            <input type="text" id="lname" name="lname" />
-
-            <label for="phone">Phone</label>
-            <input
-              type="text"
-              id="phone"
-              name="phone"
-              placeholder="1234567890"
-            />
-
-            <label for="email">Email</label>
-            <input
-              type="text"
-              id="email"
-              name="email"
-              placeholder="demo@example.com"
-            />
-          </div>
+    <div class="subscribe-success">
+      <div class="subscribe-body">
+        <div class="message-thanks-subscribe">
+          <h1 class="text-size-xxlarge mess-subscribe">
+            THANK YOU You Are Now Subscribed!
+          </h1>
         </div>
-
-        <div class="donate-container-right">
-          <p class="text-size-xlarge">Payment Method</p>
-          <div class="donate-content">
-            <div class="img-card">
-              <img
-                src="/assets/images-1/visa-card.jpg"
-                alt="Donate with Visa card"
-              />
-              <img
-                src="/assets/images-1/master-card.jpg"
-                alt="Donate with Master card"
-              />
-            </div>
-
-            <div class="donate-content">
-              <label for="card-number">Card Number</label>
-              <input type="number" id="card-number" name="card-number" />
-            </div>
-
-            <div class="donate-content">
-              <label for="name-card">Name on Card</label>
-              <input type="text" id="name-card" name="name-card" />
-            </div>
-            <div class="donate-content donate-expired-date">
-              <label for="expired">Expired Date</label>
-              <input
-                type="month"
-                id="expired"
-                name="expired"
-                placeholder="MM/YY"
-              />
-            </div>
-            <div class="donate-content donate-cvc">
-              <label for="cvc">CVC</label>
-              <input type="number" id="cvc" name="cvc" placeholder="123" />
-            </div>
-          </div>
+        <div class="subscribe-button-back-home">
+          <a class="button button-back" href="index.html">BACK</a>
         </div>
-
-        <div class="donate-purchase">
-          <a class="button button-back" href="index.html"> BACK </a>
-          <a class="button button-donate" href="donate-success.html">
-            DONATE
-          </a>
-        </div>
-      </form>
+      </div>
     </div>
 
     <footer>

@@ -1,0 +1,27 @@
+@import url("../css/variable.css");
+
+@import url("./media-query.css");
+
+.subscribe-success {
+  background-image: url("../assets/images-1/thank-you-subscribe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position-x: left;
+  background-position-y: center;
+  height: 35rem;
+}
+.subscribe-body {
+  display: flex;
+  align-items: center;
+  background: rgba(217, 217, 217, 0.53);
+  padding: 3rem;
+  border-radius: 1rem;
+  flex-direction: column;
+  width: 19rem;
+  line-height: 5rem;
+}
+
