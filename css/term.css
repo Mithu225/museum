@@ -1,25 +1,36 @@
-.term-banner {
-    position: relative;
-  
+.terms {
+  background-image: url("../assets/images-1/term-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  background-position-x: left;
+  background-position-y: bottom;
+  height: 25rem;
 }
-.term-img-banner{
-     width: 100%;
+.terms-body {
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  border-radius: 1rem;
 }
-.term-title {
-    position:absolute;
-    top:20rem;
-    left:40rem;
-    color:var(--color-text-light);
-    margin: 0;
+.terms-title {
+  color: var(--color-text-light);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
 }
-.condition-detail{
-    background-color: var(--color-term-page);
-    height: 100%;
-    background-repeat: no-repeat;
-padding:2rem;
+
+.condition-detail {
+  background-color: var(--color-term-page);
+  height: 100%;
+  background-repeat: no-repeat;
+  padding: 2rem;
 }
 .document-title {
-    font-size: var(--text-size-medium);
-    font-weight: 700;
-
+  font-size: var(--text-size-medium);
+  font-weight: 700;
 }
