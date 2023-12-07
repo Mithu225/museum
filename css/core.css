@@ -61,7 +61,7 @@ body {
 }
 
 .form-input {
-  width: 100%;
+  max-width: 100%;
   border-radius: 5px;
   border: none;
   padding: 1rem;
@@ -203,7 +203,6 @@ body {
 .footer-icon {
   display: flex;
 
-  gap: 50px;
 }
 
 .footer-right-subscribe {

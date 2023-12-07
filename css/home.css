@@ -47,25 +47,23 @@
 .museum-introduce {
   display: flex;
   gap: 2rem;
-  line-height: 2rem;
+  
 }
-.explore{
-    display: flex;
-    gap:2rem;
-    padding:2rem;
+.explore {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
 }
 .explore-item {
-    width: 30%;
+  width: 100%;
 }
-.explore-image{
-    height: 40%;
-    
+.explore-image {
+  height: 40%;
 }
-.explore-detail{
-    width: 100%;
+.explore-detail {
+  width: 100%;
 }
 .explore-info,
 .museum-introduce {
   padding: 2rem;
 }
-

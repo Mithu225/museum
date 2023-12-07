@@ -1,0 +1,21 @@
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  .footer-link-museum {
+    gap: 5rem;
+  }
+  .footer-bar {
+    justify-content: space-between;
+  }
+  .footer-title {
+    font-size: 1rem;
+  }
+  .menu-bar-item {
+    font-size: 1rem;
+  }
+  .explore-item {
+    width: 30%;
+  }
+  .museum-introduce {
+    line-height: 2rem;
+  }
+}
