@@ -11,14 +11,6 @@
   line-height: normal;
 }
 
-.donate-container-left {
-  width: 40%;
-  padding-left: 3rem;
-}
-.donate-container-right {
-  width: 30%;
-}
-
 .donate-form {
   display: flex;
   gap: 2rem 20rem;
@@ -34,7 +26,6 @@
 }
 
 .donate-purchase {
-  width: 100%;
   display: flex;
   gap: 2rem;
   padding-left: 3rem;
@@ -58,7 +49,9 @@
 .donate-info {
   padding: 2rem;
 }
-
+.donate-container {
+  display: flex;
+}
 .donate-expired-date {
   width: 70%;
 }

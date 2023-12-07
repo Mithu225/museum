@@ -65,6 +65,7 @@
   }
   .footer-subscribe {
     flex-direction: column;
+    text-align: center;
   }
   .footer-left p {
     font-size: var(--text-size-medium);
@@ -77,5 +78,41 @@
   }
   .footer-icon {
     justify-content: space-between;
+  }
+  .submission-form {
+    padding: 1rem;
+    width: 70%;
+  }
+  .button-send-message {
+    padding: 1rem;
+  }
+
+  .contribution-body-top {
+    width: 100%;
+    padding: 1rem;
+  }
+  .contribution-body-bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .contribution-body-bottom-left,
+  .contribution-body-bottom-right {
+    width: 100%;
+  }
+  .donate-container-left {
+    width: auto;
+    padding: 0;
+  }
+
+  .donate-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .donte-purchase {
+    display: flex;
+    padding: 0;
+    text-align: center;
+    flex-direction: column;
   }
 }

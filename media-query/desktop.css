@@ -18,4 +18,25 @@
   .museum-introduce {
     line-height: 2rem;
   }
+  .contribution-banner {
+    height: 25rem;
+  }
+  .contribution-body {
+    justify-content: center;
+  }
+  .contribution-body-top {
+    width: 40%;
+  }
+  .contribution-body-bottom {
+    flex-direction: row;
+    padding: 0 10rem;
+    gap: 6rem;
+  }
+  .donate-container-right {
+    width: 30%;
+  }
+  .donate-container-left {
+    width: 40%;
+    padding-left: 3rem;
+  }
 }
