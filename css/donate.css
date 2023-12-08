@@ -28,7 +28,7 @@
 .donate-purchase {
   display: flex;
   gap: 2rem;
-  padding-left: 3rem;
+
 }
 
 .donate-form label {
@@ -42,23 +42,14 @@
   width: 100%;
   border-radius: 5px;
   border: 1px solid #bbb6b6;
-  padding: 1.5rem 4rem;
+  padding: 1.5rem;
   font-size: 1rem;
 }
 
 .donate-info {
   padding: 2rem;
 }
-.donate-container {
-  display: flex;
-}
-.donate-expired-date {
-  width: 70%;
-}
 
-.donate-cvc {
-  width: calc(30% - 2rem);
-}
 
 .img-card {
   width: 100%;

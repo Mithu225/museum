@@ -104,15 +104,26 @@
     width: auto;
     padding: 0;
   }
-
-  .donate-container {
-    flex-direction: column;
-    gap: 1.5rem;
+  .donate-container-right {
+    width: 100%;
   }
-  .donte-purchase {
+  .donate-purchase {
     display: flex;
     padding: 0;
     text-align: center;
     flex-direction: column;
+    width: 100%;
+  }
+  .transaction,
+  .payment {
+    font-size: var(--text-size-medium);
+  }
+
+  .donate-cvc {
+    align-items: center;
+  }
+  .donate-container {
+    display: flex;
+    gap: 1rem;
   }
 }

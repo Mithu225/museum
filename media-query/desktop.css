@@ -6,9 +6,7 @@
   .footer-bar {
     justify-content: space-between;
   }
-  .footer-title {
-    font-size: 1rem;
-  }
+ 
   .menu-bar-item {
     font-size: 1rem;
   }
@@ -38,5 +36,16 @@
   .donate-container-left {
     width: 40%;
     padding-left: 3rem;
+  }
+
+  .donate-container {
+    display: flex;
+    gap: 5rem;
+  }
+  .donate-purchase {
+    padding-left: 3rem;
+  }
+  .submission-form{
+    padding:1rem 5rem;
   }
 }
