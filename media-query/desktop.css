@@ -110,7 +110,13 @@
   .ex-future-bottom-img {
     padding-left: 5rem;
   }
-  .ex-night-info{
-    padding:3rem;
+  .ex-night-info {
+    padding: 3rem;
+  }
+  .ex-space-evolution,
+  .ex-space-biology-medicine,
+  .ex-space-ecology {
+    gap: 10rem;
+    padding:4rem;
   }
 }

@@ -26,17 +26,17 @@
 .ex-space-cosmology {
   color: var(--color-text-light);
 }
-.ex-space-evolution,.ex-space-biology-medicine ,.ex-space-ecology{
+.ex-space-evolution,
+.ex-space-biology-medicine,
+.ex-space-ecology {
   display: flex;
-  padding: 4rem;
-  gap: 10rem;
   align-items: center;
   text-align: justify;
   width: 80%;
 }
 
-.ex-space-robot{
-background-image: url("../assets/images-1/robot.jpg");
+.ex-space-robot {
+  background-image: url("../assets/images-1/robot.jpg");
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -45,7 +45,6 @@ background-image: url("../assets/images-1/robot.jpg");
   background-position-x: left;
   background-position-y: center;
   height: 50rem;
-
 }
 
 .ex-space-robotics-ai {
@@ -53,7 +52,7 @@ background-image: url("../assets/images-1/robot.jpg");
   flex-direction: column;
   text-align: justify;
   letter-spacing: 1.6px;
-background: rgba(243, 242, 242, 0.69);
+  background: rgba(243, 242, 242, 0.69);
   padding: 2rem;
   border-radius: 1rem;
   width: 12%;

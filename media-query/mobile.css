@@ -208,5 +208,14 @@
   .ex-text {
     font-size: var(--text-size-medium);
   }
-
+  .ex-space-evolution,
+  .ex-space-biology-medicine,
+  .ex-space-ecology {
+    flex-direction: column;
+  }
+  .ex-space-evolution-img,
+  .ex-space-biology-img,
+  .ex-space-ecology-img {
+    width: 100%;
+  }
 }
