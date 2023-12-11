@@ -202,6 +202,7 @@ body {
 
 .footer-icon {
   display: flex;
+  gap: 1rem;
 
 }
 

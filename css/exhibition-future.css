@@ -5,15 +5,13 @@
 .ex-future-body {
   display: flex;
   flex-direction: row;
-  padding: 5rem;
-  gap: 5rem;
   text-align: justify;
 }
-.ex-future-bottom-img {
-  padding-left: 5rem;
-}
+
 .ex-night-info {
   text-align: justify;
-  padding: 3rem;
   width: 80%;
 }
+  .ex-back{
+    padding: 1rem 0;
+  }

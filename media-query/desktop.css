@@ -6,7 +6,7 @@
   .footer-bar {
     justify-content: space-between;
   }
- 
+
   .menu-bar-item {
     font-size: 1rem;
   }
@@ -45,7 +45,72 @@
   .donate-purchase {
     padding-left: 3rem;
   }
-  .submission-form{
-    padding:1rem 5rem;
+  .submission-form {
+    padding: 1rem 5rem;
+  }
+
+  .donation-success {
+    height: 50rem;
+  }
+  .mess-donation {
+    width: 20rem;
+    line-height: 10rem;
+    padding: 2rem;
+  }
+  .subscribe-success {
+    height: 35rem;
+  }
+  .subscribe-body {
+    width: 19rem;
+    padding: 3rem;
+  }
+  .mess-subscribe {
+    line-height: 5rem;
+  }
+  .exhibition-img-banner {
+    height: 35rem;
+  }
+  .exhibition-menu {
+    gap: 4rem;
+  }
+  .exhibition-current-body {
+    gap: 10rem;
+  }
+  .exhibition-current-img {
+    padding: 0 5rem;
+  }
+  .exhibition-current-info,
+  .exhibition-future-info,
+  .exhibition-night-info {
+    font-size: var(--text-size-large);
+  }
+  .exhibition-future-body {
+    flex-direction: row;
+  }
+  .exhibition-future-img,
+  .exhibition-night-img {
+    height: 35rem;
+    padding: 2rem;
+  }
+  .exhibition-future-body {
+    gap: 15rem;
+  }
+  .ex-current-body {
+    padding: 4rem;
+    gap: 10rem;
+  }
+  .ex-current-info {
+    width: 40%;
+    justify-content: center;
+  }
+  .ex-future-body {
+    padding: 5rem;
+    gap: 5rem;
+  }
+  .ex-future-bottom-img {
+    padding-left: 5rem;
+  }
+  .ex-night-info{
+    padding:3rem;
   }
 }

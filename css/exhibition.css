@@ -4,7 +4,6 @@
 
 .exhibition-img-banner {
   width: 100%;
-  height: 35rem;
 }
 .exhibition-menu {
   display: flex;
@@ -12,7 +11,6 @@
   list-style: none;
   justify-content: center;
   padding: 0.5rem 0;
-  gap: 4rem;
 }
 .exhibition-text {
   display: flex;
@@ -27,15 +25,12 @@
   font-style: normal;
   font-weight: 400;
 }
-.exhibition-current-img {
-  padding: 0 5rem;
-}
+
 .exhibition-current-body {
   display: flex;
   background-color: var(--color-thunder);
   padding: 2rem;
   border-radius: 1rem;
-  gap: 10rem;
   max-width: 90%;
   text-align: center;
   margin: 1rem auto;
@@ -48,7 +43,6 @@
   text-align: center;
   color: var(--color-text-light);
   gap: 1rem;
-  font-size: var(--text-size-large);
   padding: 2rem;
 }
 .exhibition-body-text {
@@ -57,19 +51,14 @@
 
 .exhibition-future-body {
   display: flex;
-  flex-direction: row;
+  
   background-color: var(--color-thunder);
   padding: 2rem;
   border-radius: 1rem;
-  gap: 15rem;
   max-width: 90%;
   margin: 1rem auto;
 }
-.exhibition-future-img,
-.exhibition-night-img {
-  height: 35rem;
-  padding: 2rem;
-}
+
 .exhibition-future-info {
   display: flex;
   flex-direction: column;

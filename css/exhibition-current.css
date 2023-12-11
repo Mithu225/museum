@@ -5,22 +5,18 @@
 
 .ex-current-body {
   display: flex;
-  padding: 4rem;
-  gap: 10rem;
+  
   align-items: center;
   text-align: justify;
 }
 
-.ex-current-info {
-  width: 40%;
-  justify-content: center;
-}
+
 .ex-text {
   font-weight: 400;
 }
-.ex-back {
-  padding-top: 2rem;
-}
+  .ex-back{
+    padding: 1rem 0;
+  }
 .ex-text-detail {
   text-align: justify;
 }

@@ -14,6 +14,9 @@
   .menu-bar > li {
     padding: 1.25rem 0;
   }
+  .footer-left {
+    text-align: center;
+  }
   .footer-bar {
     display: flex;
     flex-direction: column;
@@ -126,4 +129,84 @@
     display: flex;
     gap: 1rem;
   }
+
+  .mess-donation {
+    font-size: var(--text-size-medium);
+    padding: 2rem 1rem;
+    width: 7rem;
+    line-height: 2rem;
+  }
+  .donation-success {
+    height: 15rem;
+  }
+  .mess-thank-donation {
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+  }
+  .subscribe-success {
+    height: 10rem;
+  }
+  .mess-thank-subscribe {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .mess-subscribe {
+    font-size: var(--text-size-medium);
+    line-height: 1.25rem;
+
+    width: 7rem;
+  }
+  .subscribe-body {
+    width: 8rem;
+    height: 100%;
+  }
+  .exhibition-img-banner {
+    width: 100%;
+    height: 15rem;
+  }
+  .exhibition-menu {
+    gap: 2rem;
+  }
+  .exhibition-current-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .exhibition-current-img,
+  .exhibition-night-img {
+    width: 100%;
+  }
+  .exhibition-current-info {
+    font-size: var(--text-size-medium);
+  }
+  .exhibition-future-body {
+    flex-direction: column;
+  }
+  .exhibition-night-img {
+    height: 15rem;
+  }
+  .exhibition-future-img {
+    padding-top: 2rem;
+  }
+  .ex-current-body,
+  .ex-future-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .ex-current-img,
+  .ex-future-img,
+  .ex-future-bottom-img {
+    width: 80%;
+    padding: 2rem;
+  }
+  .ex-current-info,
+  .ex-future-info,
+  .ex-night-info {
+    padding: 1rem 2rem;
+  }
+  .ex-text {
+    font-size: var(--text-size-medium);
+  }
+
 }
