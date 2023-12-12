@@ -6,7 +6,9 @@
   .footer-bar {
     justify-content: space-between;
   }
-
+  .footer-right {
+    margin-top: 3rem;
+  }
   .menu-bar-item {
     font-size: 1rem;
   }
@@ -117,6 +119,17 @@
   .ex-space-biology-medicine,
   .ex-space-ecology {
     gap: 10rem;
-    padding:4rem;
+    padding: 4rem;
+  }
+  .ex-space-cosmology-img,
+  .ex-space-robotics-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .ex-space-cosmology-text,
+  .ex-space-robotics-text {
+    width: 50%;
   }
 }

@@ -3,57 +3,22 @@
 
 @import url("./media-query.css");
 
-.ex-space {
-  background-image: url("../assets/images-1/cosmology.jpg");
-  background-repeat: no-repeat;
+.ex-space-cosmology,
+.ex-space-robotics {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  flex-direction: column;
-  background-position-x: center;
-  background-position-y: center;
-  height: 50rem;
+  text-align: justify;
+  padding-top: 1rem;
 }
-.ex-space-cosmology {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  background: rgba(217, 217, 217, 0.11);
-  padding: 2rem;
-  border-radius: 1rem;
-  width: 40%;
-}
-.ex-space-cosmology {
-  color: var(--color-text-light);
-}
+
 .ex-space-evolution,
 .ex-space-biology-medicine,
 .ex-space-ecology {
   display: flex;
   align-items: center;
   text-align: justify;
-  width: 80%;
 }
-
-.ex-space-robot {
-  background-image: url("../assets/images-1/robot.jpg");
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-position-x: left;
-  background-position-y: center;
-  height: 50rem;
-}
-
-.ex-space-robotics-ai {
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  letter-spacing: 1.6px;
-  background: rgba(243, 242, 242, 0.69);
-  padding: 2rem;
-  border-radius: 1rem;
-  width: 12%;
+.ex-back {
+  padding: 2.5rem;
 }

@@ -192,7 +192,7 @@ body {
 .footer-link-museum {
   display: flex;
   gap: 3rem;
-  padding: 1rem;
+
 }
 .footer-museum-info {
   justify-content: left;
@@ -248,9 +248,7 @@ body {
 .footer-text {
   margin: 0;
 }
-.footer-right {
-  margin-top: 3rem;
-}
+
 .email-subscribe {
   padding-bottom: 1rem;
 }

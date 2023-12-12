@@ -1,0 +1,113 @@
+/* For Tablet View */
+@media screen and (max-width: 1024px) {
+  .header-bar {
+    flex-direction: column;
+  }
+  .menu-bar {
+    flex-direction: column;
+    font-size: var(--text-size-medium);
+
+    gap: 0.5rem;
+  }
+
+  .menu-bar > li {
+    padding: 1.25rem 0;
+  }
+  .footer-left {
+    text-align: center;
+  }
+  .footer-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-right-subscribe {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-link-museum {
+    display: flex;
+    gap: 1rem;
+  }
+  .footer-title {
+    font-size: 1.5rem;
+  }
+  .footer-subscribe {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-left p {
+    font-size: var(--text-size-medium);
+  }
+  .footer-left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-right p {
+    font-size: var(--text-size-medium);
+  }
+
+  .footer-icon {
+    justify-content: space-between;
+  }
+
+  .email-subscribe {
+    width: 100%;
+  }
+  .museum-introduce {
+    flex-direction: column;
+  }
+  .explore {
+    flex-direction: column;
+  }
+  .explore-image {
+    width: 100%;
+  }
+  .museum-intro-left-img {
+    width: 100%;
+  }
+  .home-visit-container p {
+    font-size: var(--text-size-large);
+  }
+  .home-visit-container h1 {
+    font-size: var(--text-size-large);
+  }
+  .explore-info {
+    font-size: var(--text-size-large);
+  }
+  .museum-intro-right,
+  .explore-detail {
+    text-align: justify;
+  }
+  .submission-form {
+    padding: 4rem;
+    width: 70%;
+  }
+
+  .contribution-info {
+    padding: 0 3rem;
+  }
+  .contribution-body-bottom {
+    flex-direction: column;
+  }
+  .mess-donation {
+    font-size: var(--text-size-medium);
+    padding: 5rem 1rem;
+    width: 10rem;
+    line-height: 2rem;
+  }
+  .donation-success {
+    height: 25rem;
+  }
+  .mess-thank-donation {
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+  }
+}

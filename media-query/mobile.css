@@ -20,6 +20,7 @@
   .footer-bar {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
   }
   .footer-right {
     display: flex;
@@ -76,9 +77,7 @@
   .footer-right p {
     font-size: var(--text-size-medium);
   }
-  .footer-bar {
-    gap: 1rem;
-  }
+
   .footer-icon {
     justify-content: space-between;
   }
@@ -213,9 +212,19 @@
   .ex-space-ecology {
     flex-direction: column;
   }
+  .ex-space-cosmology-img,
+  .ex-space-robotics-img,
   .ex-space-evolution-img,
   .ex-space-biology-img,
   .ex-space-ecology-img {
-    width: 100%;
+    width: calc(100% - 4rem);
+  
+  }
+  .ex-space-cosmology-text,
+  .ex-space-robotics-text,
+  .ex-space-evolution-text,
+  .ex-space-biology-text,
+  .ex-space-ecology-text {
+    padding: 0 2rem;
   }
 }
