@@ -202,4 +202,7 @@
     width: 8rem;
     height: 100%;
   }
+  .submission {
+    height: 40rem;
+  }
 }

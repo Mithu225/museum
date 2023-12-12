@@ -50,6 +50,9 @@
   .submission-form {
     padding: 1rem 5rem;
   }
+  .submission {
+    height: 40rem;
+  }
 
   .donation-success {
     height: 50rem;
@@ -81,7 +84,7 @@
   .exhibition-current-img {
     padding: 0 5rem;
   }
- 
+
   .exhibition-future-body {
     flex-direction: row;
   }
@@ -128,7 +131,8 @@
   .ex-space-robotics-text {
     width: 50%;
   }
-  .policy,.terms{
-    height: 25rem; 
+  .policy,
+  .terms {
+    height: 25rem;
   }
 }

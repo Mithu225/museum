@@ -232,4 +232,11 @@
   .ex-space-ecology-text {
     padding: 0 2rem;
   }
+  .mess-thank,
+  .mess-submission {
+    font-size: var(--text-size-medium);
+  }
+  .submission {
+    height: 100%;
+  }
 }
