@@ -100,6 +100,13 @@
   .contribution-body-bottom {
     flex-direction: column;
   }
+  .donate-container {
+    display: flex;
+    gap: 7rem;
+  }
+  .img-card {
+    height: 8rem;
+  }
   .mess-donation {
     font-size: var(--text-size-medium);
     padding: 5rem 1rem;
@@ -113,5 +120,86 @@
     width: 15rem;
     display: flex;
     justify-content: center;
+  }
+  .exhibition-menu {
+    gap: 2rem;
+  }
+  .exhibition-current-img {
+    width: 100%;
+  }
+  .exhibition-current-img,
+  .exhibition-night-img {
+    width: 100%;
+  }
+  .exhibition-current-body,
+  .exhibition-future-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .exhibition-night-img {
+    height: 35rem;
+  }
+  .exhibition-future-img {
+    padding-top: 2rem;
+  }
+  .ex-current-body,
+  .ex-future-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .ex-current-img,
+  .ex-future-img,
+  .ex-future-bottom-img {
+    width: 80%;
+  }
+  .ex-current-info,
+  .ex-future-info,
+  .ex-night-info {
+    padding: 0 5rem;
+  }
+  .ex-text {
+    font-size: var(--text-size-medium);
+  }
+  .ex-back {
+    padding: 2rem;
+  }
+  .ex-space-evolution,
+  .ex-space-biology-medicine,
+  .ex-space-ecology {
+    flex-direction: column;
+  }
+  .ex-space-cosmology-img,
+  .ex-space-robotics-img,
+  .ex-space-evolution-img,
+  .ex-space-biology-img,
+  .ex-space-ecology-img {
+    width: calc(100% - 4rem);
+  }
+  .ex-space-cosmology-text,
+  .ex-space-robotics-text,
+  .ex-space-evolution-text,
+  .ex-space-biology-text,
+  .ex-space-ecology-text {
+    padding: 0 2rem;
+  }
+  .subscribe-success {
+    height: 17rem;
+  }
+  .mess-thank-subscribe {
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+   
+  }
+  .mess-subscribe {
+    font-size: var(--text-size-medium);
+    line-height: 1.5rem;
+
+    width: 7rem;
+  }
+  .subscribe-body {
+    width: 8rem;
+    height: 100%;
   }
 }

@@ -81,11 +81,7 @@
   .exhibition-current-img {
     padding: 0 5rem;
   }
-  .exhibition-current-info,
-  .exhibition-future-info,
-  .exhibition-night-info {
-    font-size: var(--text-size-large);
-  }
+ 
   .exhibition-future-body {
     flex-direction: row;
   }
@@ -131,5 +127,8 @@
   .ex-space-cosmology-text,
   .ex-space-robotics-text {
     width: 50%;
+  }
+  .policy,.terms{
+    height: 25rem; 
   }
 }
