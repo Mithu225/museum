@@ -46,7 +46,7 @@
     flex-direction: column;
   }
   .explore {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
   .explore-image {
     width: 100%;
@@ -176,13 +176,18 @@
   .exhibition-night-img {
     width: 100%;
   }
+  .exhibition-night-body {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
   .exhibition-current-info,
   .exhibition-future-info,
   .exhibition-night-info {
     font-size: var(--text-size-medium);
   }
-  .exhibition-future-body {
-    flex-direction: column;
+  .exhibition-body-detail {
+    grid-template-columns: 1fr;
   }
   .exhibition-night-img {
     height: 15rem;

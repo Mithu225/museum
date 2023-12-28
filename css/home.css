@@ -47,10 +47,9 @@
 .museum-introduce {
   display: flex;
   gap: 2rem;
-  
 }
 .explore {
-  display: flex;
+  display: grid;
   gap: 2rem;
   padding: 2rem;
 }
@@ -58,7 +57,9 @@
   width: 100%;
 }
 .explore-image {
-  height: 40%;
+  height: 30rem;
+  width: 100%;
+  object-fit: contain;
 }
 .explore-detail {
   width: 100%;
@@ -66,4 +67,8 @@
 .explore-info,
 .museum-introduce {
   padding: 2rem;
+}
+.museum-intro-left-img{
+  width: 100%;
+  object-fit: contain;
 }

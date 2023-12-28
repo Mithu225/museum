@@ -68,7 +68,7 @@
     flex-direction: column;
   }
   .explore {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
   .explore-image {
     width: 100%;
@@ -131,12 +131,15 @@
   .exhibition-night-img {
     width: 100%;
   }
-  .exhibition-current-body,
-  .exhibition-future-body {
-    display: flex;
-    flex-direction: column;
-  }
 
+  .exhibition-body-detail {
+    grid-template-columns: 1fr;
+  }
+  .exhibition-night-body {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
   .exhibition-night-img {
     height: 35rem;
   }
@@ -190,7 +193,6 @@
     padding: 4rem;
     display: flex;
     justify-content: center;
-   
   }
   .mess-subscribe {
     font-size: var(--text-size-medium);

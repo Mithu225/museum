@@ -3,7 +3,9 @@
 @import url("./media-query.css");
 
 .exhibition-img-banner {
-  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .exhibition-menu {
   display: flex;
@@ -12,13 +14,24 @@
   justify-content: center;
   padding: 0.5rem 0;
 }
+.exhibition-container {
+  display: flex;
+  flex-direction: column;
+}
 .exhibition-text {
   display: flex;
   justify-content: center;
   background-color: var(--color-btn-blaze-orange);
   font-weight: 700;
+  margin: 0;
+  padding: 1rem;
 }
-
+.exhibition-future-img,
+.exhibition-night-img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
 .exhibition-menu-bar {
   color: var(--color-text-dark);
   font-size: var(--text-size-large);
@@ -28,12 +41,10 @@
 
 .exhibition-current-body {
   display: flex;
-  background-color: var(--color-thunder);
-  padding: 2rem;
+  flex-direction: column;
   border-radius: 1rem;
-  max-width: 90%;
   text-align: center;
-  margin: 1rem auto;
+  gap: 1rem;
 }
 .exhibition-current-info,
 .exhibition-future-info,
@@ -43,23 +54,30 @@
   text-align: center;
   color: var(--color-text-light);
   gap: 1rem;
+}
+.exhibition-body-text,
+.exhibition-body-date {
+  margin: 0;
+}
+.exhibition-body-container {
   padding: 2rem;
 }
-.exhibition-body-text {
-  text-decoration: underline;
-}
 
-.exhibition-future-body {
-  display: flex;
-  
+.exhibition-body-detail {
+  display: grid;
+  gap: 1rem;
   background-color: var(--color-thunder);
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 1rem;
-  max-width: 90%;
-  margin: 1rem auto;
+  justify-content: space-evenly;
 }
 
-.exhibition-future-info {
+.exhibition-body-info {
   display: flex;
   flex-direction: column;
+}
+.exhibition-night-body {
+  display: flex;
+
+  gap: 2rem;
 }

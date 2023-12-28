@@ -12,6 +12,9 @@
   .menu-bar-item {
     font-size: 1rem;
   }
+  .explore {
+    grid-template-columns: repeat(3, 1fr);
+  }
   .explore-item {
     width: 30%;
   }
@@ -85,17 +88,14 @@
     padding: 0 5rem;
   }
 
-  .exhibition-future-body {
-    flex-direction: row;
+  .exhibition-body-detail {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3rem;
   }
-  .exhibition-future-img,
-  .exhibition-night-img {
-    height: 35rem;
-    padding: 2rem;
+  .exhibition-night-body {
+    flex-direction: column;
   }
-  .exhibition-future-body {
-    gap: 15rem;
-  }
+
   .ex-current-body {
     padding: 4rem;
     gap: 10rem;

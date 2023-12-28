@@ -213,7 +213,11 @@ body {
   display: flex;
   gap: 1rem;
 }
-
+.footer-explore-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .footer-info-details a {
   color: var(--color-text-gray);
   font-size: 1rem;
