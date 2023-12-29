@@ -91,14 +91,13 @@
   }
   .submission-form {
     padding: 4rem;
+    display: flex;
+    flex-direction: column;
   }
   .reception-title,
   .reception-text {
     margin: 0;
     font-size: var(--text-size-large);
-  }
-  .reception-detail {
-    line-height: 400;
   }
 
   .contribution-info {
