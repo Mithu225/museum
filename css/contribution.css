@@ -2,7 +2,7 @@
 
 @import url("./media-query.css");
 .contribution-banner {
-  background-repeat: no-repeat;
+  object-fit: cover;
   height: auto;
   background-size: cover;
   width: 100%;
