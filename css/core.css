@@ -76,20 +76,20 @@ body {
 
 .form-input-item label {
   display: block;
-  padding-bottom: 0.4rem;
+  padding: 0.4rem;
   font-size: 1rem;
 }
 
 .form-input-item input {
-  width: 100%;
   border-radius: 5px;
   border: 1px solid #bbb6b6;
   padding: 1rem;
   font-size: 1rem;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .form-input-item textarea {
-  width: 100%;
   border-radius: 5px;
   border: 1px solid #bbb6b6;
   padding: 1rem;
@@ -196,8 +196,8 @@ body {
 }
 .footer-museum-info {
   justify-content: left;
-  max-width: 31rem;
-  line-height: 2rem;
+
+  line-height: 3rem;
 }
 
 .footer-icon {
@@ -207,12 +207,9 @@ body {
 
 .footer-right-subscribe {
   display: flex;
-  gap: 10px;
-}
-.footer-reception-details {
-  display: flex;
   gap: 1rem;
 }
+
 .footer-explore-details {
   display: flex;
   flex-direction: column;

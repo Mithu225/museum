@@ -9,14 +9,37 @@
 
 .submission-form {
   display: flex;
-
+  gap: 6rem;
 }
 .form-title {
   color: var(--color-text-dark);
   font-style: normal;
   font-weight: 700;
-  padding: 1rem 0;
+  padding-bottom: 0.4rem;
+  margin: 0;
 }
 .button-send-message {
   padding: 1rem 0;
+}
+.submission-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.reception-title {
+  color: var(--color-text-dark);
+  font-style: normal;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+.reception-days,
+.reception-hours {
+  line-height: 3;
+  margin: 0;
+}
+.reception-details {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
 }

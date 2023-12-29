@@ -82,8 +82,16 @@
     justify-content: space-between;
   }
   .submission-form {
-    padding: 1rem;
-    width: 70%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-input-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .reception-text {
+    font-size: var(--text-size-medium);
   }
   .button-send-message {
     padding: 1rem;
