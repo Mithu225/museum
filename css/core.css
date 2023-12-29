@@ -94,6 +94,8 @@ body {
   border: 1px solid #bbb6b6;
   padding: 1rem;
   font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .header-bar {
