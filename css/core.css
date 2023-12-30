@@ -107,7 +107,7 @@ body {
   width: 100%;
 }
 .contact-img-banner {
-  padding: 1rem 0;
+  padding: 0;
 }
 .menu-bar {
   display: flex;
@@ -122,6 +122,11 @@ body {
   width: 50%;
   text-align: center;
 }
+
+.menu-bar-item:hover {
+  color: var(--color-barossa);
+}
+
 .menu-bar-item {
   color: var(--color-text-primary);
 
@@ -143,6 +148,10 @@ body {
   color: var(--color-text-light);
   padding: 0.5rem 1.2rem;
   border-radius: 1rem;
+}
+
+.menu-bar-item--selected:hover {
+  color: var(--color-text-light);
 }
 
 .dropdown-content {
@@ -249,6 +258,14 @@ body {
 }
 .footer-text {
   margin: 0;
+}
+
+.footer-explore-details a {
+  text-decoration: none;
+}
+
+.footer-explore-details a:hover {
+  text-decoration: underline;
 }
 
 .email-subscribe {

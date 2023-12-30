@@ -15,10 +15,20 @@
 .ex-space-evolution,
 .ex-space-biology-medicine,
 .ex-space-ecology {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
   text-align: justify;
 }
-.ex-back {
-  padding-bottom: 1rem;
+
+.exs-back {
+  padding: 2rem;
+}
+
+.exs-back a {
+  display: inline-block;
+}
+
+.ex-img-left {
+  justify-self: end;
 }

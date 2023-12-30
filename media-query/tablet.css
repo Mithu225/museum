@@ -110,9 +110,7 @@
     display: flex;
     gap: 7rem;
   }
-  .img-card {
-    height: 8rem;
-  }
+
   .mess-donation {
     font-size: var(--text-size-medium);
     padding: 5rem 1rem;
@@ -157,10 +155,11 @@
     display: flex;
     flex-direction: column;
   }
-  .ex-current-img,
-  .ex-future-img,
-  .ex-future-bottom-img {
-    width: 80%;
+  .ex-future-top,
+  .ex-future-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
   .ex-current-info,
   .ex-future-info,
@@ -171,19 +170,22 @@
     font-size: var(--text-size-medium);
   }
   .ex-back {
-    padding: 2rem;
+    padding: 2rem 0;
   }
   .ex-space-evolution,
   .ex-space-biology-medicine,
   .ex-space-ecology {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
   .ex-space-cosmology-img,
   .ex-space-robotics-img,
   .ex-space-evolution-img,
   .ex-space-biology-img,
   .ex-space-ecology-img {
-    width: calc(100% - 4rem);
+    margin: 0 auto;
+    object-fit: contain;
+    width: 80%;
+    height: 100%;
   }
   .ex-space-cosmology-text,
   .ex-space-robotics-text,
@@ -212,5 +214,9 @@
   }
   .submission {
     height: 40rem;
+    padding: 2rem;
+  }
+  .message-submission-page {
+    padding-bottom: 4rem;
   }
 }

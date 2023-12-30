@@ -215,6 +215,13 @@
   .ex-future-img {
     padding: 1rem 0;
   }
+  .ex-future-top,
+  .ex-future-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
   .ex-current-info,
   .ex-future-info,
   .ex-night-info {
@@ -224,7 +231,7 @@
     font-size: var(--text-size-medium);
   }
   .ex-back {
-    padding: 2rem;
+    padding: 2rem 0;
   }
   .ex-space-evolution,
   .ex-space-biology-medicine,
@@ -251,5 +258,9 @@
   }
   .submission {
     height: 100%;
+    padding: 2rem 0 15rem 0;
+  }
+  .message-submission-page {
+    padding-bottom: 2rem;
   }
 }

@@ -30,7 +30,7 @@
 .exhibition-night-img {
   height: 100%;
   max-width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .exhibition-menu-bar {
   color: var(--color-text-dark);
@@ -80,4 +80,13 @@
   display: flex;
 
   gap: 2rem;
+}
+
+.ex-future-bottom-img,
+.ex-future-img {
+  object-fit: contain;
+  max-width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding:1rem;
 }

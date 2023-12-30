@@ -20,3 +20,7 @@
 .ex-text-detail {
   text-align: justify;
 }
+.ex-current-img{
+  object-fit: contain;
+  width: 100%;
+}
