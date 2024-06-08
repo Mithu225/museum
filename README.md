@@ -23,14 +23,9 @@ This is where you list how to get the project started. It typically just include
 1. Clone the repo:
 
 ```
-git@github.com:Mithu225/museum.git
+git clone git@github.com:Mithu225/museum.git
 ```
 
-2. Install the dependencies:
-
-```
-npm install
-```
 
 ### Running
 
@@ -39,8 +34,7 @@ Here is where you detail how to run the app. It typically involves the commands 
 To run the app, run the following commands:
 
 ```bash
-npm run start
-```
+npx serve ./museum
 
 ## Contributing
 
