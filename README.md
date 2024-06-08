@@ -38,7 +38,7 @@ npx serve ./museum
 
 ## Contributing
 
-I'm reaching out to discuss the possibility of you contributing to Museum's websitre. I believe your unique perspective would greatly benefit our audience.
+I'm reaching out to discuss the possibility of you contributing to Museum's website. I believe your unique perspective would greatly benefit our audience.
 
 Contributing to my website offers several benefits, including exposure to a relevant audience, opportunities for collaboration, and the chance to showcase your expertise .
 
