@@ -8,17 +8,10 @@ Greetings and salutations from the Community Museum Website, your virtual doorwa
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 - HTML
 - CSS
-  
-
-
 
 ### Installing
-
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
 1. Clone the repo:
 
@@ -29,14 +22,14 @@ git clone git@github.com:Mithu225/museum.git
 
 ### Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
 
 To run the app, run the following commands:
 
 ```bash
 npx serve ./museum
+```
 
-## Contributing
+### Contributing
 
 I'm reaching out to discuss the possibility of you contributing to Museum's website. I believe your unique perspective would greatly benefit our audience.
 
